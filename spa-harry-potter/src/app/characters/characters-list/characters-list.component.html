@@ -1,0 +1,7 @@
+<h1>Lista de Characters</h1>
+
+<div *ngFor="let item of characters">
+    <h2>{{ item.name }}</h2>
+    <p>{{ item.house }}</p>
+    <img [src]="item.image">
+</div>
